@@ -1,0 +1,51 @@
+/* reset.css */
+
+/* Eliminar márgenes y rellenos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configurar fuentes y tamaños de texto */
+html {
+    font-size: 100%; /* Tamaño base para em y rem */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Cambia la fuente si lo deseas */
+    line-height: 1.5;
+}
+
+/* Estilos para elementos comunes */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin: 0;
+}
+
+p {
+    margin: 0 0 1em; /* Espacio inferior entre párrafos */
+}
+
+ul, ol {
+    list-style: none; /* Eliminar viñetas y números */
+}
+
+a {
+    text-decoration: none; /* Eliminar subrayado de enlaces */
+    color: inherit; /* Heredar el color del texto */
+}
+
+img {
+    max-width: 100%; /* Hacer que las imágenes sean responsivas */
+    height: auto; /* Mantener la proporción de las imágenes */
+}
+
+/* Botones y formularios */
+button, input, textarea {
+    font-family: inherit; /* Asegurar que los formularios usen la misma fuente */
+    font-size: inherit;
+    border: none;
+    outline: none; /* Eliminar contornos predeterminados */
+}
+
